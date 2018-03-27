@@ -4,7 +4,7 @@
 // from the charset package. It can be embedded in the Go
 // executable by importing the data package:
 //
-//	import _ "github.com/paulrosania/go-charset/data"
+//	import _ "github.com/ernezt/go-charset/data"
 //
 // It can also made available in a data directory (by settting CharsetDir).
 package charset

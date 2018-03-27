@@ -4,11 +4,10 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/paulrosania/go-charset/charset"
-	_ "github.com/paulrosania/go-charset/charset/iconv"
 	"io"
 	"os"
 	"strings"
+	"github.com/ernezt/go-charset/charset"
 )
 
 var listFlag = flag.Bool("l", false, "list available character sets")
